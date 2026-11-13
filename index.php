@@ -26,7 +26,7 @@ session_start();
 
         <nav>
             <a href="index.php">Inicio</a>
-            <a href="#servicios">Servicios</a>
+            <a href="servicios.php">Servicios</a>
 
             <?php if (isset($_SESSION["id_usuario"])): ?>
 
@@ -68,7 +68,7 @@ session_start();
                 y ayudarte a encontrar tu mejor estilo.
             </p>
 
-            <a href="#servicios" class="btn btn-dark">
+            <a href="servicios.php" class="btn btn-dark">
                 Nuestros servicios
             </a>
 
